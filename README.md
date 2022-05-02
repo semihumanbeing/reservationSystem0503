@@ -1,2 +1,2 @@
 # reservationSystem0503
-miniproject for a week
+mini project for a week
