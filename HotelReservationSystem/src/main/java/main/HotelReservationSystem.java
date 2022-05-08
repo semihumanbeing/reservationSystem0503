@@ -1,5 +1,6 @@
 package main;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
@@ -55,16 +56,23 @@ public class HotelReservationSystem {
 
 	private void addReserveInfo() {
 		List<HotelVO> list = HotelDAO.getInstance().selectAvailableRooms();
+		List<Integer> availableRooms = new ArrayList<Integer>();
 		
 		System.out.println("-----객실예약을 선택하셨습니다.-----");
 		System.out.println("-----예약 가능한 객실을 조회합니다-----");
 		for (HotelVO vo : list) {
 			System.out.printf("%d | %s | %d\n", vo.getRoomNumber(), vo.getRoomGrade(), vo.getRoomPrice());
+			availableRooms.add(vo.getRoomNumber());
 		}
 		
 		System.out.println("입실하실 방 번호를 입력하세요");
 		int roomNumber = scanner.nextInt();
 		scanner.nextLine();
+		
+		if(!availableRooms.contains(roomNumber)) {
+			System.out.println("이미 예약된 방입니다.");
+			return;
+		}
 		
 		System.out.println("이름을 입력하세요");
 		String name = scanner.nextLine();
@@ -122,7 +130,13 @@ public class HotelReservationSystem {
 	}
 
 	public static void main(String[] args) {
-		new HotelReservationSystem();
+		try {
+			new HotelReservationSystem();
+		} catch (Exception e) {
+			System.out.println("잘못된 입력입니다.");
+			new HotelReservationSystem();
+		}
+		
 	}
 
 }
