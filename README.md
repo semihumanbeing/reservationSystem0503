@@ -1,5 +1,8 @@
-# 미니프로젝트[호텔예약] 
 
+# 미니프로젝트[호텔예약] 
+<details>
+<summary>토글 접기/펼치기</summary>
+<div markdown="1">
 자바와 JDBC api를 사용해서 콘솔 프로그램을 만드는 미니프로젝트
 ![image](https://user-images.githubusercontent.com/99929191/167563645-21ee16b5-93d8-4a0f-8b99-f49a40681600.png)
 
@@ -55,3 +58,7 @@ JDBC14
 2일차~6일차 - 각자 어느 부분을 만들었는지 매일 간단하게 보고
 
 7일차 - 각자 프로그램 시연 혹은 실패후 막힌 부분 공유
+
+</div>
+</details>
+
