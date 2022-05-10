@@ -1,5 +1,3 @@
-# reservationSystem0503
-mini project for a week
 # 미니프로젝트[호텔예약] 기획서
 
 자바와 JDBC api를 사용해서 콘솔 프로그램을 만드는 미니프로젝트
