@@ -1,10 +1,10 @@
 
 # 미니프로젝트[호텔예약] 
 <details>
-<summary> 자바와 JDBC api를 사용해서 콘솔 프로그램을 만드는 미니프로젝트 </summary>
+	<summary> <h2>기획서</h2> </summary>
 <div markdown="1">
   
-
+자바와 JDBC api를 사용해서 콘솔 프로그램을 만드는 미니프로젝트
   
 ![image](https://user-images.githubusercontent.com/99929191/167563645-21ee16b5-93d8-4a0f-8b99-f49a40681600.png)
 
@@ -64,9 +64,10 @@ JDBC14
 
 </div>
 </details>
-
+<br>
+<h1>제작기</h1>
 <details>
-<summary> 미니프로젝트[호텔예약] day 2 </summary>
+<summary> <h2>미니프로젝트[호텔예약] day 2</h2> </summary>
 <div markdown="1">
 
 전체적인 과정에 대해 정리해보기:
@@ -139,7 +140,7 @@ ROOMNUMBER는 FOREIGN KEY 로 지정해주었다.
 
 ## 2. DBConnection 클래스만들기
 
-```jsx
+```java
 static {
 		try {
 			Class.forName("oracle.jdbc.driver.OracleDriver");
@@ -176,9 +177,9 @@ static {
 
 </div>
 </details>
-
+<br>
 <details>
-<summary> 미니프로젝트[호텔예약] day 4 </summary>
+<summary> <h2>미니프로젝트[호텔예약] day 4</h2> </summary>
 <div markdown="1">
 
 ## VO만들어서 변수명 지정하기
@@ -684,9 +685,10 @@ main에서 실행되면 initDisplay메서드가 실행되어 select값을 변경
 
 </div>
 </details>
-  
+<br>
+	
 <details>
-<summary> 미니프로젝트[호텔예약] day 6 </summary>
+<summary> <h2>미니프로젝트[호텔예약] day 6</h2> </summary>
 <div markdown="1">
 
 콘솔로 웬만한 기능들은 구현을 했는데, 이제 예외처리 부분이 남았다.
