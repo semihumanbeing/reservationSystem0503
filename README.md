@@ -3,6 +3,7 @@
 <details>
 <summary>토글 접기/펼치기</summary>
 <div markdown="1">
+  
 ## 자바와 JDBC api를 사용해서 콘솔 프로그램을 만드는 미니프로젝트
   
 ![image](https://user-images.githubusercontent.com/99929191/167563645-21ee16b5-93d8-4a0f-8b99-f49a40681600.png)
